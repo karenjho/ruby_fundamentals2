@@ -61,3 +61,9 @@ puts "The second item on your grocery list is #{grocery_list[1]}."
 puts "Grocery List: Step Eight".upcase
 
 fancy_list(grocery_list.sort)
+
+# remove lemons from the grocery list
+puts "Grocery List: Step Nine".upcase
+
+grocery_list.delete("lemons")
+fancy_list(grocery_list.sort)
