@@ -14,4 +14,4 @@ cohort_students(students)
 
 students[:cohort4] = 43
 
-cohort_students(students)
+puts "List of cohorts: #{students.keys.join(", ")}"
