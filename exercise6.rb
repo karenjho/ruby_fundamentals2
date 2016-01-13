@@ -56,3 +56,8 @@ end
 puts "Grocery List: Step Seven".upcase
 
 puts "The second item on your grocery list is #{grocery_list[1]}."
+
+# organize the grocery list alphabetically
+puts "Grocery List: Step Eight".upcase
+
+fancy_list(grocery_list.sort)
