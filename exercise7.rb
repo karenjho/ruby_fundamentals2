@@ -25,3 +25,10 @@ cohort_students(students)
 students.delete(:cohort2)
 
 cohort_students(students)
+
+sum = 0
+students.each do |cohort, student_count|
+  sum += student_count
+end
+
+puts sum
