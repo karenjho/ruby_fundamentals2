@@ -26,3 +26,15 @@ grocery_list << "rice"
 grocery_list.each do |item|
   puts "* #{item}"
 end
+
+# create method for printing grocery list with asterisks
+puts "Grocery List: Step Four".upcase
+
+def fancy_list(list)
+  list.each do |item|
+    puts "* #{item}"
+  end
+  list
+end
+
+fancy_list(grocery_list)
