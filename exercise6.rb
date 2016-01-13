@@ -38,3 +38,16 @@ def fancy_list(list)
 end
 
 fancy_list(grocery_list)
+
+# create method for printing grocery list with asterisks
+puts "Grocery List: Step Five".upcase
+puts "There are #{grocery_list.length.to_s} items on your list."
+
+# check if list has bananas
+puts "Grocery List: Step Six".upcase
+
+if grocery_list.include?("bananas")
+  puts "You need to pick up bananas."
+else
+  puts "You don't need to pick up bananas today."
+end
