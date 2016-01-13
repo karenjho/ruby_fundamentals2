@@ -51,3 +51,8 @@ if grocery_list.include?("bananas")
 else
   puts "You don't need to pick up bananas today."
 end
+
+# display the second item on the grocery list
+puts "Grocery List: Step Seven".upcase
+
+puts "The second item on your grocery list is #{grocery_list[1]}."
