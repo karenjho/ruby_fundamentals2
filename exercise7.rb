@@ -3,3 +3,11 @@ students = {
   cohort2: 42,
   cohort3: 22
 }
+
+def cohort_students(cohort_list)
+  cohort_list.each do |cohort, student_count|
+    puts "#{cohort}: #{student_count} students"
+  end
+end
+
+cohort_students(students)
