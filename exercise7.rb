@@ -11,3 +11,7 @@ def cohort_students(cohort_list)
 end
 
 cohort_students(students)
+
+students[:cohort4] = 43
+
+cohort_students(students)
