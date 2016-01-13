@@ -15,3 +15,9 @@ cohort_students(students)
 students[:cohort4] = 43
 
 puts "List of cohorts: #{students.keys.join(", ")}"
+
+students.each do |cohort, student_count|
+  students[cohort.to_sym] = student_count + student_count * 5 / 100
+end
+
+cohort_students(students)
